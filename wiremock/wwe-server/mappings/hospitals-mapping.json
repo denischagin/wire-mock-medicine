@@ -1,0 +1,48 @@
+{
+  "priority": 1,
+  "request": {
+    "url": "/api/hospitals/",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      {
+        "id": 1,
+        "name": "Первая городская больница",
+        "address": "Почтовая 7",
+        "rating": 3.5 
+      },
+      {
+        "id": 2,
+        "name": "Первая городская больница",
+        "address": "Почтовая 7",
+        "rating": 4.5
+      },
+      {
+        "id": 3,
+        "name": "Первая городская больница",
+        "address": "Почтовая 7",
+        "rating": 2
+      },
+      {
+        "id": 4,
+        "name": "Первая городская больница",
+        "address": "Почтовая 7",
+        "rating": 3.9
+      },
+      {
+        "id": 5,
+        "name": "Первая городская больница",
+        "address": "Почтовая 7",
+        "rating": 4.2
+      }
+    ],
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Allow-Headers": "Accept, Content-Type, Content-Encoding, Server, Transfer-Encoding"
+    }
+  }
+}

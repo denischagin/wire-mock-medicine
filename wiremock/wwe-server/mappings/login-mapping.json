@@ -1,0 +1,39 @@
+{
+  "request": {
+    "url": "/api/login-patient/",
+    "method": "POST",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/json"
+      },
+      "Accept-Charset": {
+        "equalTo": "utf-8"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "equalToJson": {
+          "login": "user",
+          "password": "301600_Ii"
+        },
+        "ignoreArrayOrder": true,
+        "ignoreExtraElements": true
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "username": "user",
+      "email": "user@user.com",
+      "accessToken": "12345",
+      "refreshToken": "123456"
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Allow-Headers": "Accept, Content-Type, Content-Encoding, Server, Transfer-Encoding"
+    }
+  }
+}

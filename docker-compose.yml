@@ -1,0 +1,10 @@
+version: '3.5'
+
+services: 
+  wiremock:
+    container_name: wiremock_container
+    image: rodolpheche/wiremock
+    ports:
+      - "8083:8080"
+    volumes:
+      - ./wiremock/wwe-server:/home/wiremock

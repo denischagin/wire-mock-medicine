@@ -1,0 +1,27 @@
+{
+  "request": {
+    "urlPathPattern": "/api/hospitals/([1-9]*)/",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+        "id": 1,
+        "name": "Первая городская больница",
+        "address": "Почтовая 7",
+        "rating": 5,
+        "description": "Хорошая больница",
+        "email": "user@user.com",
+        "endTime": "123213",
+        "startedTime": "123123",
+        "doctors": []
+      }
+    ,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Allow-Headers": "Accept, Content-Type, Content-Encoding, Server, Transfer-Encoding"
+    }
+  }
+}
